@@ -1,5 +1,4 @@
 import { graphql, GraphQLInputObjectType, GraphQLInt, GraphQLInterfaceType, GraphQLList, GraphQLNonNull, GraphQLObjectType, GraphQLString } from "graphql";
-import data from "../data/dummy.js";
 import Product from "./product.js";
 import CartItem from "./cartItem.js";
 import { CartItemType, ProductType } from "./queryTypes.js";

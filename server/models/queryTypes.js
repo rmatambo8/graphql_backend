@@ -1,7 +1,6 @@
-import { GraphQLObjectType, GraphQLString, GraphQLList, GraphQLNonNull, GraphQLInt, GraphQLBoolean} from 'graphql'
-import data from '../data/dummy.js'
-import Product from './product.js'
-import CartItem from './cartItem.js'
+import { GraphQLObjectType, GraphQLString, GraphQLList, GraphQLNonNull, GraphQLInt, GraphQLBoolean } from 'graphql';
+import Product from './product.js';
+import CartItem from './cartItem.js';
 
 export const CartItemType = new GraphQLObjectType({
   name: "CartItem",

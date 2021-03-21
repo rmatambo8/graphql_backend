@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import { useDispatch } from 'react-redux';
-import { addToCart } from '../actions/cart';
-import { deleteProduct } from '../api';
+import { addToCart} from '../actions/cart';
+import { deleteProduct } from '../actions/products';
+
 import Form from './Form';
 
 const Product = ({ product}) => {
