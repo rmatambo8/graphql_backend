@@ -1,5 +1,5 @@
 # graphql_backend
-A simple shopping cartReact Redux w/redux thunk front end powered by a graphql backend that goes to a mongoDB database.
+A simple shopping cart app that uses React Redux(w/redux-thunk) front end powered by a graphql backend that goes to a mongoDB database.
 
 you need an Atlas MongoDB account.
 Steps:
@@ -14,7 +14,7 @@ Steps:
 
 `5. create a .env file inside of server`
 
-`6. input DB=mongodb Access String here`
+`6. input DB=mongodb Access String in the .env`(if this is foreign, find a tutorial on how to get the access string for mongoDB)
 
 `7. npm run dev` from server
 
